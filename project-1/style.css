@@ -213,7 +213,7 @@ border-radius: 30px;
 
 /* Images-part */
 .team-page {
-  background-color: #dedede;
+  background-color: #f54e178a;;
   height: 100vh;
   align-items: center;
 }
@@ -287,13 +287,7 @@ border-radius: 30px;
 /* Contact Page */
 
 .contact-page {
-  background: linear-gradient(
-    90deg,
-    rgba(42, 123, 155, 1) 0%,
-    rgba(126, 204, 172, 1) 50%,
-    rgba(169, 194, 81, 0.99) 87%,
-    rgba(237, 221, 83, 1) 100%
-  );
+  background:  #FABD63;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -383,7 +377,7 @@ border-radius: 30px;
   display: flex;
   justify-content: space-around;
   padding: 30px;
-  background-color: rgba(0, 0, 0, 0.678);
+  background-color: rgb(0, 0, 0);
 
   color: white;
 }
@@ -421,12 +415,25 @@ border-radius: 30px;
     display: block;
 }
 .menutoggle{
- display: block;
-}
- .menutoggle i{
+    display: block;
+    }
+    .menutoggle i{
     font-size: 36px;
     padding: 10px;
-                }
+    }
+    .menu{
+    background-color: rgb(243, 138, 10);
+    position: absolute;
+    top: 160px;
+    width: 20%;
+    left: -77%;
+    transition: 2s;
+  
+    }
+    
+    .open{
+        left: 0;
+    }
 ul{
   display: block;
   
